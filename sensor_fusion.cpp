@@ -81,7 +81,7 @@ static float fatan_deg(float x);
 static float fatan2_deg(float y, float x);
 static float fatan_15deg(float x);
 
-extern "C"{
+
 void f3x3matrixAeqI(float A[][3]);
 void fmatrixAeqI(float *A[], int16_t rc);
 void f3x3matrixAeqScalar(float A[][3], float Scalar);
@@ -92,7 +92,7 @@ float f3x3matrixDetA(float A[][3]);
 void eigencompute(float A[][10], float eigval[], float eigvec[][10], int8_t n);
 void fmatrixAeqInvA(float *A[], int8_t iColInd[], int8_t iRowInd[], int8_t iPivot[], int8_t isize);
 void fmatrixAeqRenormRotA(float A[][3]);
-}
+
 
 
 // initialize the 9DOF Kalman filter
